@@ -17,3 +17,15 @@
 a {
     text-decoration: none;
 }
+
+body{
+    /*background-color: lightcyan;
+    background-image: url("../img/5.jpg");
+    color: black;
+    background-repeat: no-repeat;
+    background-position: top center;*/
+
+    background: lightcyan url("../img/5.jpg") top center no-repeat;
+
+
+}
