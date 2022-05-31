@@ -25,7 +25,14 @@ body{
     background-repeat: no-repeat;
     background-position: top center;*/
 
-    background: lightcyan url("../img/5.jpg") top center no-repeat;
+    background: lightcyan top center no-repeat;
+}
 
+div {
+    width: 400px; background-color: darkblue; color: white;
+}
 
+.borderClass {
+    border-top: 2px solid red;
+    border-left: 5px dotted green;
 }
