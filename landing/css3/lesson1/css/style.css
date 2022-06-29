@@ -13,5 +13,10 @@ body{
     height: 250px;
     margin: 20px auto;
     background: #fff url('../img/img.jpg') no-repeat;
-    background-size: 150px 100px;
+}
+
+.element2 {
+    border: 20px solid rgb(0,0,0,0.5);
+    padding: 20px;
+    background-size: 300px;
 }
