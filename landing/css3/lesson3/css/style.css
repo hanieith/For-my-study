@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #e2e7ec;
+}
+
+.element{
+    width: 300px;
+    height: 200px;
+    margin: 20px auto;
+    background-color: silver;
+    border: 10px solid #000;
+    border-radius: 50px;
+}
+
+.element-img{
+    width: 300px;
+    height: 200px;
+    background: url("../image/img.jpg") no-repeat;
+    background-clip: padding-box;
+    background-origin: border-box;
+    margin: 20px auto;
+    background-size: cover;
+    border: 20px solid #000;
+}
