@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #e2e7ec;
+}
+
+.container {
+    width: 95%;
+    margin: 20px auto;
+    display: flex;
+}
+
+.left {
+    background-color: #f00;
+    padding: 20px;
+}
+
+.right{
+    background-color: #0f0;
+    padding: 20px;
+}
