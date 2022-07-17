@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #e2e7ec;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.block {
+    width: 45%;
+    margin: 20px 0;
+    box-sizing: border-box;
+    max-width: 400px
+}
+
+.block img {
+    max-width: 100%
+    display: block
+}
+
+.block-one{
+    filter: brightness(1);
+}
+
+.block-two{
+    filter: grayscale(0.6);
+}
